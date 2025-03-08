@@ -1,7 +1,8 @@
 import { supabase } from './supabase';
 
-const SENTIMENT_API_URL = 'https://skchuzee.rcld.dev/api/v1/workspace/sentiment_analysis/chat';
-const API_KEY = 'SVQWSN9-1H24CPH-GD7ZRY0-02PKV1H';
+const SENTIMENT_API_URL = 'https://gwe2alut.rpcld.net/api/v1/workspace/sentiment_analysis/chat';
+
+const API_KEY = 'S82VW3A-RFXMASP-GJXYZ9Q-VBD9CE2';
 
 export async function analyzeSentiment(message: string, threadId: string, messageId: string) {
   try {
