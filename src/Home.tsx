@@ -8,8 +8,8 @@ import { Login } from './components/Login';
 import { MessageSquare, Trophy, Calendar, Target, Plus, Pencil, Trash2, Check, X, LogOut } from 'lucide-react';
 import { supabase, safeDbOperation, logSupabaseError } from './lib/supabase';
 
-const API_KEY = 'SVQWSN9-1H24CPH-GD7ZRY0-02PKV1H';
-const API_URL = 'https://skchuzee.rcld.dev/api/v1/workspace/chatbot/chat';
+const API_KEY = 'S82VW3A-RFXMASP-GJXYZ9Q-VBD9CE2';
+const API_URL = 'https://gwe2alut.rpcld.net/api/v1/workspace/sezar/chat';
 
 export function Home() {
   // ... (önceki state tanımlamaları)
